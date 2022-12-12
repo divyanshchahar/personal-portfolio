@@ -1,6 +1,9 @@
-import { useState } from "react";
+// IMPORTING CUSTOM FUNCTIONALITY
 import Branding from "../components/Branding";
 import MenuButton from "../components/MenuButton";
+
+// IMPORTING REACT FUNCTIONALITY
+import { useState } from "react";
 
 /**
  * Layout to render Top Navigation Bar
