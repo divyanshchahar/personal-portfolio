@@ -1,7 +1,13 @@
 import "./App.css";
 
+import TopNavBar from "./layouts/TopNavBar";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <TopNavBar />
+    </>
+  );
 }
 
 export default App;
