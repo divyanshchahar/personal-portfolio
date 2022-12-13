@@ -30,6 +30,7 @@
 }
 
 .branding {
+  font-family: "Share Tech Mono", monospace;
   font-size: var(--fs_branding);
   font-weight: var(--fw_branding);
   color: var(--font1);
