@@ -31,6 +31,13 @@
 
   --w_tabular: 100%;
 
+  --p_tabular-small: 5vw;
+  --fs_tabular-small: 1.25rem;
+
+  --w_tabular_small-container: 100%;
+
+  --w_tabular-small-image: 50%;
+
   /* COLORS */
   --background1: rgba(0, 0, 0, 1);
   --background2: rgba(25, 25, 25, 1);
@@ -147,6 +154,33 @@ body {
   padding: var(--p2_tabular);
 }
 
+.tabular-small {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: var(--p_tabular-small);
+  padding: var(--p_tabular-small);
+  text-align: center;
+  font-size: var(--fs_tabular-small);
+  color: white;
+}
+
+.tabular-small-container {
+  width: var(--w_tabular_small-container);
+  text-align: center;
+}
+
+.tabular-small-image {
+  text-align: center;
+  width: var(--w_tabular-small-image);
+  margin: auto;
+}
+
+.tabular-small-image img {
+  width: var(--w_tabular-small-image);
+}
+
 /* 
 ##################
 # TOUCH DISPLAYS #
@@ -180,6 +214,13 @@ body {
     --p2_tabular: 5%;
 
     --w_tabular: 100%;
+
+    --p_tabular-small: 5vw;
+    --fs_tabular-small: 1.25rem;
+
+    --w_tabular_small-container: 100%;
+
+    --w_tabular-small-image: 50%;
 
     /* COLORS */
     --background1: rgba(0, 0, 0, 1);
@@ -232,6 +273,18 @@ body {
     justify-content: center;
     color: var(--font2);
   }
+
+  .tabular-small {
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    justify-content: center;
+    align-items: center;
+    gap: var(--p_tabular-small);
+    padding: var(--p_tabular-small);
+    text-align: center;
+    font-size: var(--fs_tabular-small);
+    color: white;
+  }
 }
 
 /* 
@@ -267,6 +320,13 @@ body {
 
     --w_tabular: 100%;
 
+    --p_tabular-small: 5vw;
+    --fs_tabular-small: 1.25rem;
+
+    --w_tabular_small-container: 100%;
+
+    --w_tabular-small-image: 50%;
+
     /* COLORS */
     --background1: rgba(0, 0, 0, 1);
     --background2: rgba(25, 25, 25, 1);
@@ -294,5 +354,17 @@ body {
     align-items: center;
     justify-content: center;
     color: var(--font2);
+  }
+
+  .tabular-small {
+    display: grid;
+    grid-template-columns: 25vw 25vw;
+    justify-content: center;
+    align-items: center;
+    gap: var(--p_tabular-small);
+    padding: var(--p_tabular-small);
+    text-align: center;
+    font-size: var(--fs_tabular-small);
+    color: white;
   }
 }

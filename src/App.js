@@ -2,6 +2,7 @@
 import TopNavBar from "./layouts/TopNavBar";
 import FrontMatter from "./components/FrontMatter";
 import TechStack from "./layouts/TechStack";
+import GetInTouch from "./layouts/GetInTouch";
 
 // IMPORTING STYLESHEETS
 import "./App.css";
@@ -12,6 +13,7 @@ function App() {
       <TopNavBar />
       <FrontMatter />
       <TechStack />
+      <GetInTouch />
     </>
   );
 }
