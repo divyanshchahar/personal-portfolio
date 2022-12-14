@@ -24,6 +24,13 @@
   --w_front-matter-2: 100%;
   --br_front-matter-2: 5%;
 
+  --fs_section-heading: 3rem;
+
+  --p1_tabular: 5vw;
+  --p2_tabular: 5%;
+
+  --w_tabular: 100%;
+
   /* COLORS */
   --background1: rgba(0, 0, 0, 1);
   --background2: rgba(25, 25, 25, 1);
@@ -117,6 +124,29 @@ body {
   border-radius: var(--br_front-matter-2);
 }
 
+.section-heading {
+  font-family: "Share Tech Mono", monospace;
+  font-size: var(--fs_section-heading);
+  color: var(--font1);
+  text-align: center;
+  margin-top: var(--fs_section-heading);
+}
+
+.tabular {
+  display: grid;
+  padding: var(--p1_tabular);
+  gap: var(--p1_tabular);
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  color: var(--font2);
+}
+
+.tabular img {
+  width: var(--w_tabular);
+  padding: var(--p2_tabular);
+}
+
 /* 
 ##################
 # TOUCH DISPLAYS #
@@ -143,6 +173,13 @@ body {
 
     --w_front-matter-2: 100%;
     --br_front-matter-2: 5%;
+
+    --fs_section-heading: 3rem;
+
+    --p1_tabular: 5vw;
+    --p2_tabular: 5%;
+
+    --w_tabular: 100%;
 
     /* COLORS */
     --background1: rgba(0, 0, 0, 1);
@@ -185,6 +222,16 @@ body {
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
+
+  .tabular {
+    display: grid;
+    padding: var(--p1_tabular);
+    gap: var(--p1_tabular);
+    grid-template-columns: 25vw 25vw 25vw;
+    align-items: center;
+    justify-content: center;
+    color: var(--font2);
+  }
 }
 
 /* 
@@ -213,6 +260,13 @@ body {
     --w_front-matter-2: 100%;
     --br_front-matter-2: 5%;
 
+    --fs_section-heading: 6rem;
+
+    --p1_tabular: 5vw;
+    --p2_tabular: 5%;
+
+    --w_tabular: 100%;
+
     /* COLORS */
     --background1: rgba(0, 0, 0, 1);
     --background2: rgba(25, 25, 25, 1);
@@ -230,5 +284,15 @@ body {
     grid-template-columns: 35vw 35vw;
     align-items: center;
     justify-content: center;
+  }
+
+  .tabular {
+    display: grid;
+    padding: var(--p1_tabular);
+    gap: var(--p1_tabular);
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    align-items: center;
+    justify-content: center;
+    color: var(--font2);
   }
 }
