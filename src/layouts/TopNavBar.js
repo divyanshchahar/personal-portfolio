@@ -21,7 +21,10 @@ function TopNavBar() {
           <Link className="nav-link" to="about-me" smooth={true}>
             About Me
           </Link>
-          <div className="nav-link">Projects</div>
+
+          <Link className="nav-link" to="projects" smooth={true}>
+            Projects
+          </Link>
           <div className="nav-link">Tech Stack</div>
           <div className="nav-link">Get in Touch</div>
         </div>
@@ -30,6 +33,10 @@ function TopNavBar() {
         <div className="nav-bar-links-mobile">
           <Link className="nav-link-mobile" to="about-me" smooth={true}>
             About Me
+          </Link>
+
+          <Link className="nav-link-mobile" to="projects" smooth={true}>
+            Projects
           </Link>
           <div className="nav-link-mobile">Projects</div>
           <div className="nav-link-mobile">Tech Stack</div>
