@@ -34,7 +34,9 @@ function TechStack() {
         </div>
 
         <div>
-          <img src={Npm} alt="" />
+          <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer">
+            <img src={Npm} alt="" />
+          </a>
 
           <p>
             Projects which are purely front-end projects are built using npm
