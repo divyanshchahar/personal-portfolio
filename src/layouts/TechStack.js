@@ -28,14 +28,14 @@ function TechStack() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={JavaScript} alt="" />
+            <img src={JavaScript} alt="javascript icon" />
           </a>
           <p>I use ES6 version of JavaScript for all of my web rojects</p>
         </div>
 
         <div>
           <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer">
-            <img src={Npm} alt="" />
+            <img src={Npm} alt="npm icon" />
           </a>
 
           <p>
@@ -44,7 +44,9 @@ function TechStack() {
         </div>
 
         <div>
-          <img src={Yarn} alt="" />
+          <a href="https://yarnpkg.com/" target="_blank" rel="noreferrer">
+            <img src={Yarn} alt="yarn icon" />
+          </a>
           <p>
             For projects which require a little bit of backend, I prefer
             monorepos. These monorepos are built using yarn workspaces
