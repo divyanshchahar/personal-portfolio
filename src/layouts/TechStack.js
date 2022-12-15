@@ -57,7 +57,6 @@ function TechStack() {
           <a href="https://html.com/" target="_blank" rel="noreferrer">
             <img src={Html5} alt="html icon" />
           </a>
-
           <p>
             Although not used in its raw format, it is unaviodable to be a
             front-end develoepr and not know HTML
@@ -65,7 +64,13 @@ function TechStack() {
         </div>
 
         <div>
-          <img src={Css3} alt="" />
+          <a
+            href="https://www.w3schools.com/css/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={Css3} alt="css icon" />
+          </a>
           <p>
             There are many CSS frameworks out there, but I still prefer vanilla
             CSS. I think it is the best approach to styling the UI
