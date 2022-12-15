@@ -54,7 +54,10 @@ function TechStack() {
         </div>
 
         <div>
-          <img src={Html5} alt="" />
+          <a href="https://html.com/" target="_blank" rel="noreferrer">
+            <img src={Html5} alt="html icon" />
+          </a>
+
           <p>
             Although not used in its raw format, it is unaviodable to be a
             front-end develoepr and not know HTML
