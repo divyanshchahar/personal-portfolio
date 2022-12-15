@@ -13,7 +13,9 @@ function TechStack() {
       <h1 className="section-heading">My Tech Stack</h1>
       <div className="tabular">
         <div>
-          <img src={React} alt="" />
+          <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+            <img src={React} alt="react icon" />
+          </a>
           <p>
             All of the UIs I build are built with react, it is the foundation of
             my tech stack
@@ -21,19 +23,30 @@ function TechStack() {
         </div>
 
         <div>
-          <img src={JavaScript} alt="" />
+          <a
+            href="https://www.javascript.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={JavaScript} alt="javascript icon" />
+          </a>
           <p>I use ES6 version of JavaScript for all of my web rojects</p>
         </div>
 
         <div>
-          <img src={Npm} alt="" />
+          <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer">
+            <img src={Npm} alt="npm icon" />
+          </a>
+
           <p>
             Projects which are purely front-end projects are built using npm
           </p>
         </div>
 
         <div>
-          <img src={Yarn} alt="" />
+          <a href="https://yarnpkg.com/" target="_blank" rel="noreferrer">
+            <img src={Yarn} alt="yarn icon" />
+          </a>
           <p>
             For projects which require a little bit of backend, I prefer
             monorepos. These monorepos are built using yarn workspaces
@@ -41,7 +54,9 @@ function TechStack() {
         </div>
 
         <div>
-          <img src={Html5} alt="" />
+          <a href="https://html.com/" target="_blank" rel="noreferrer">
+            <img src={Html5} alt="html icon" />
+          </a>
           <p>
             Although not used in its raw format, it is unaviodable to be a
             front-end develoepr and not know HTML
@@ -49,7 +64,13 @@ function TechStack() {
         </div>
 
         <div>
-          <img src={Css3} alt="" />
+          <a
+            href="https://www.w3schools.com/css/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={Css3} alt="css icon" />
+          </a>
           <p>
             There are many CSS frameworks out there, but I still prefer vanilla
             CSS. I think it is the best approach to styling the UI
@@ -57,7 +78,9 @@ function TechStack() {
         </div>
 
         <div>
-          <img src={Git} alt="" />
+          <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+            <img src={Git} alt="git icon" />
+          </a>
           <p>
             I use the official git-scm terminal for managing my
             local-repositories
@@ -65,7 +88,9 @@ function TechStack() {
         </div>
 
         <div>
-          <img src={Github} alt="" />
+          <a href="https://github.com/" target="_blank" rel="noreferrer">
+            <img src={Github} alt="github icon" />
+          </a>
           <p>All of my repositories are hosted on Github.</p>
         </div>
       </div>
