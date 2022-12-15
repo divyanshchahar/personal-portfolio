@@ -23,12 +23,19 @@ function TechStack() {
         </div>
 
         <div>
-          <img src={JavaScript} alt="" />
+          <a
+            href="https://www.javascript.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={JavaScript} alt="" />
+          </a>
           <p>I use ES6 version of JavaScript for all of my web rojects</p>
         </div>
 
         <div>
           <img src={Npm} alt="" />
+
           <p>
             Projects which are purely front-end projects are built using npm
           </p>
