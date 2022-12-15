@@ -46,6 +46,8 @@
 
   --br_project-container: 5vw;
 
+  --w_text-container: 80vw;
+
   /* COLORS */
   --background1: rgba(0, 0, 0, 1);
   --background2: rgba(25, 25, 25, 1);
@@ -222,6 +224,12 @@ a {
 .project-container:hover {
   background-color: var(--background1);
   border-radius: var(--br_project-container);
+}
+
+.text-container {
+  color: var(--font2);
+  width: var(--w_text-container);
+  margin: auto;
 }
 
 /* 
