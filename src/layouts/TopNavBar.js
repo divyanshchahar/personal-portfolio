@@ -30,7 +30,9 @@ function TopNavBar() {
             Tech Stack
           </Link>
 
-          <div className="nav-link">Get in Touch</div>
+          <Link className="nav-link" to="get-in-touch" smooth={true}>
+            Get in Touch
+          </Link>
         </div>
       </div>
 
