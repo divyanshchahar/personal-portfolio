@@ -4,6 +4,7 @@ import MenuButton from "../components/MenuButton";
 
 // IMPORTING REACT FUNCTIONALITY
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 /**
  * Layout to render Top Navigation Bar
@@ -17,19 +18,21 @@ function TopNavBar() {
         <Branding />
         <MenuButton params={[isVisible, setIsVisible]} />
         <div className="nav-bar-links">
-          <div className="nav-link">About Me</div>
+          <Link className="nav-link" to="about-me" smooth={true}>
+            About Me
+          </Link>
           <div className="nav-link">Projects</div>
           <div className="nav-link">Tech Stack</div>
-          <div className="nav-link">Blog</div>
           <div className="nav-link">Get in Touch</div>
         </div>
       </div>
       {isVisible ? (
         <div className="nav-bar-links-mobile">
-          <div className="nav-link-mobile">About Me</div>
+          <Link className="nav-link-mobile" to="about-me" smooth={true}>
+            About Me
+          </Link>
           <div className="nav-link-mobile">Projects</div>
           <div className="nav-link-mobile">Tech Stack</div>
-          <div className="nav-link-mobile">Blog</div>
           <div className="nav-link-mobile">Get in Touch</div>
         </div>
       ) : null}
