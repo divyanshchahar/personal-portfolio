@@ -48,7 +48,9 @@ function TopNavBar() {
             Tech Stack
           </Link>
 
-          <div className="nav-link-mobile">Get in Touch</div>
+          <Link className="nav-link-mobile" to="get-in-touch" smooth={true}>
+            Get in Touch
+          </Link>
         </div>
       ) : null}
     </>
