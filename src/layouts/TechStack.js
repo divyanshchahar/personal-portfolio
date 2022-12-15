@@ -13,7 +13,9 @@ function TechStack() {
       <h1 className="section-heading">My Tech Stack</h1>
       <div className="tabular">
         <div>
-          <img src={React} alt="" />
+          <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+            <img src={React} alt="react icon" />
+          </a>
           <p>
             All of the UIs I build are built with react, it is the foundation of
             my tech stack
