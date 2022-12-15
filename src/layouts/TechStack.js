@@ -80,7 +80,9 @@ function TechStack() {
         </div>
 
         <div>
-          <img src={Github} alt="" />
+          <a href="https://github.com/" target="_blank" rel="noreferrer">
+            <img src={Github} alt="github icon" />
+          </a>
           <p>All of my repositories are hosted on Github.</p>
         </div>
       </div>
