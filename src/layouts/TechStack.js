@@ -70,7 +70,9 @@ function TechStack() {
         </div>
 
         <div>
-          <img src={Git} alt="" />
+          <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+            <img src={Git} alt="git icon" />
+          </a>
           <p>
             I use the official git-scm terminal for managing my
             local-repositories
