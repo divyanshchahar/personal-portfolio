@@ -38,6 +38,14 @@
 
   --w_tabular-small-image: 50%;
 
+  --p1_tabular-medium: 5vw;
+  --p2_tabular-medium: 2vw;
+  --w_tabular-medium: 20%;
+
+  --fs_sub-section-heading: 1.5rem;
+
+  --br_project-container: 5vw;
+
   /* COLORS */
   --background1: rgba(0, 0, 0, 1);
   --background2: rgba(25, 25, 25, 1);
@@ -181,6 +189,41 @@ body {
   width: var(--w_tabular-small-image);
 }
 
+.tabular-medium {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  gap: var(--p1_tabular-medium);
+  padding: var(--p1_tabular-medium);
+  color: var(--font2);
+}
+
+.tabular-medium img {
+  width: var(--w_tabular-medium);
+  padding: var(--p2_tabular-medium);
+}
+
+.sub-section-heading {
+  font-family: "Share Tech Mono", monospace;
+  font-size: var(--fs_sub-section-heading);
+  color: var(--font4);
+}
+
+.project-container {
+  padding: var(--p1_tabular-medium);
+}
+
+a {
+  text-decoration: none;
+  color: var(--font2);
+}
+
+.project-container:hover {
+  background-color: var(--background1);
+  border-radius: var(--br_project-container);
+}
+
 /* 
 ##################
 # TOUCH DISPLAYS #
@@ -221,6 +264,14 @@ body {
     --w_tabular_small-container: 100%;
 
     --w_tabular-small-image: 50%;
+
+    --p1_tabular-medium: 2.5vw;
+    --p2_tabular-medium: 1vw;
+    --w_tabular-medium: 50%;
+
+    --fs_sub-section-heading: 1.25rem;
+
+    --br_project-container: 2.5vw;
 
     /* COLORS */
     --background1: rgba(0, 0, 0, 1);
@@ -285,6 +336,16 @@ body {
     font-size: var(--fs_tabular-small);
     color: white;
   }
+
+  .tabular-medium {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 30vw 30vw 30vw;
+    gap: var(--p1_tabular-medium);
+    padding: var(--p1_tabular-medium);
+    color: var(--font2);
+  }
 }
 
 /* 
@@ -327,6 +388,14 @@ body {
 
     --w_tabular-small-image: 50%;
 
+    --p1_tabular-medium: 2.5vw;
+    --p2_tabular-medium: 0;
+    --w_tabular-medium: 30%;
+
+    --fs_sub-section-heading: 1.5rem;
+
+    --br_project-container: 1vw;
+
     /* COLORS */
     --background1: rgba(0, 0, 0, 1);
     --background2: rgba(25, 25, 25, 1);
@@ -366,5 +435,15 @@ body {
     text-align: center;
     font-size: var(--fs_tabular-small);
     color: white;
+  }
+
+  .tabular-medium {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 30vw 30vw 30vw;
+    gap: var(--p1_tabular-medium);
+    padding: var(--p1_tabular-medium);
+    color: var(--font2);
   }
 }
