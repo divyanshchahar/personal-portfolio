@@ -7,7 +7,7 @@ import Folder from "../assets/folder.svg";
 
 function Projects() {
   return (
-    <div>
+    <div id="projects">
       <h1 className="section-heading">Projects</h1>
       <div className="tabular-medium">
         <a

@@ -8,7 +8,7 @@ import Email from "../assets/email.svg";
 
 function GetInTouch() {
   return (
-    <>
+    <div id="get-in-touch">
       <h1 className="section-heading">Get in Touch</h1>
 
       <div className="tabular-small">
@@ -32,7 +32,7 @@ function GetInTouch() {
           <p>divyanshchahar@outlook.com</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
