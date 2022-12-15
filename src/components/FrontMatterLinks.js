@@ -19,7 +19,14 @@ function FrontMatterLinks() {
         <img src={LinkedInIcon} alt="linked icon" />
       </a>
 
-      <img src={TwitterIcon} alt="" />
+      <a
+        href="https://twitter.com/DivyanshChahar"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={TwitterIcon} alt="twitter icon" />
+      </a>
+
       <img src={GithubIcon} alt="" />
       <img src={HashnodeIcon} alt="" />
     </div>
