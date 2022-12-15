@@ -9,7 +9,7 @@ import Github from "../assets/github.svg";
 
 function TechStack() {
   return (
-    <>
+    <div id="tech-stack">
       <h1 className="section-heading">My Tech Stack</h1>
       <div className="tabular">
         <div>
@@ -94,7 +94,7 @@ function TechStack() {
           <p>All of my repositories are hosted on Github.</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

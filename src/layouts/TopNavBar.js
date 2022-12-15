@@ -25,10 +25,15 @@ function TopNavBar() {
           <Link className="nav-link" to="projects" smooth={true}>
             Projects
           </Link>
-          <div className="nav-link">Tech Stack</div>
+
+          <Link className="nav-link" to="tech-stack" smooth={true}>
+            Tech Stack
+          </Link>
+
           <div className="nav-link">Get in Touch</div>
         </div>
       </div>
+
       {isVisible ? (
         <div className="nav-bar-links-mobile">
           <Link className="nav-link-mobile" to="about-me" smooth={true}>
@@ -38,8 +43,11 @@ function TopNavBar() {
           <Link className="nav-link-mobile" to="projects" smooth={true}>
             Projects
           </Link>
-          <div className="nav-link-mobile">Projects</div>
-          <div className="nav-link-mobile">Tech Stack</div>
+
+          <Link className="nav-link-mobile" to="tech-stack" smooth={true}>
+            Tech Stack
+          </Link>
+
           <div className="nav-link-mobile">Get in Touch</div>
         </div>
       ) : null}
