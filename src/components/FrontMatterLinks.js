@@ -35,7 +35,13 @@ function FrontMatterLinks() {
         <img src={GithubIcon} alt="github" />
       </a>
 
-      <img src={HashnodeIcon} alt="" />
+      <a
+        href="https://divyanshchahar.hashnode.dev/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={HashnodeIcon} alt="" />
+      </a>
     </div>
   );
 }
