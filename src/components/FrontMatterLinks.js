@@ -11,7 +11,14 @@ import HashnodeIcon from "../assets/hashnode.svg";
 function FrontMatterLinks() {
   return (
     <div className="front-matter-links">
-      <img src={LinkedInIcon} alt="" />
+      <a
+        href="https://www.linkedin.com/in/divyanshchahar/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={LinkedInIcon} alt="linked icon" />
+      </a>
+
       <img src={TwitterIcon} alt="" />
       <img src={GithubIcon} alt="" />
       <img src={HashnodeIcon} alt="" />
