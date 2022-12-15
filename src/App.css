@@ -98,6 +98,7 @@ body {
 }
 
 .nav-link-mobile {
+  display: block;
   text-align: center;
   padding: var(--p_top-nav-bar);
 }
