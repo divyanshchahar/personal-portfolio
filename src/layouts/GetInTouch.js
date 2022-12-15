@@ -14,7 +14,13 @@ function GetInTouch() {
       <div className="tabular-small">
         <div className="tabular-small-container">
           <div className="tabular-small-image">
-            <img src={Schedule} alt="" />
+            <a
+              href="https://calendly.com/divyanshchahar/meeting"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Schedule} alt="" />
+            </a>
           </div>
           <p>Schedule face to face appointment with me</p>
         </div>
