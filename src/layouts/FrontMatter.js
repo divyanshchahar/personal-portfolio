@@ -2,7 +2,7 @@
 import MyPicture from "../assets/image_dp.jpeg";
 
 // IMPORTING CUSTOM FUNCTIONALITY
-import FrontMatterLinks from "./FrontMatterLinks";
+import FrontMatterLinks from "../components/FrontMatterLinks";
 
 /**
  * Function to render front matter
