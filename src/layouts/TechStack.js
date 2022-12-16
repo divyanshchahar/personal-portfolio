@@ -18,7 +18,7 @@ function TechStack() {
           </a>
           <p>
             All of the UIs I build are built with react, it is the foundation of
-            my tech stack
+            my tech stack.
           </p>
         </div>
 
@@ -30,7 +30,7 @@ function TechStack() {
           >
             <img src={JavaScript} alt="javascript icon" />
           </a>
-          <p>I use ES6 version of JavaScript for all of my web rojects</p>
+          <p>I use ES6 version of JavaScript for all of my web projects.</p>
         </div>
 
         <div>
@@ -39,7 +39,7 @@ function TechStack() {
           </a>
 
           <p>
-            Projects which are purely front-end projects are built using npm
+            Projects which are purely front-end projects are built using npm.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ function TechStack() {
           </a>
           <p>
             For projects which require a little bit of backend, I prefer
-            monorepos. These monorepos are built using yarn workspaces
+            monorepos. These monorepos are built using yarn workspaces.
           </p>
         </div>
 
@@ -58,8 +58,8 @@ function TechStack() {
             <img src={Html5} alt="html icon" />
           </a>
           <p>
-            Although not used in its raw format, it is unaviodable to be a
-            front-end develoepr and not know HTML
+            Although not used in its raw format, it is unavoidable to be a
+            front-end develoepr and not know HTML.
           </p>
         </div>
 
@@ -73,7 +73,7 @@ function TechStack() {
           </a>
           <p>
             There are many CSS frameworks out there, but I still prefer vanilla
-            CSS. I think it is the best approach to styling the UI
+            CSS. I think it is the best approach to styling the UI.
           </p>
         </div>
 
@@ -83,7 +83,7 @@ function TechStack() {
           </a>
           <p>
             I use the official git-scm terminal for managing my
-            local-repositories
+            local-repositories.
           </p>
         </div>
 
