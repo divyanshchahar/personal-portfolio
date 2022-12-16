@@ -17,8 +17,8 @@ function TechStack() {
             <img src={React} alt="react icon" />
           </a>
           <p>
-            All of the UIs I build are built with react, it is the foundation of
-            my tech stack.
+            All of the UIs I build, are built with react, it is the foundation
+            of my tech stack.
           </p>
         </div>
 
