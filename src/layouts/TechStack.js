@@ -1,3 +1,4 @@
+// IMPORTING ASSETS
 import React from "../assets/react.svg";
 import Css3 from "../assets/css3.svg";
 import Git from "../assets/git.svg";
