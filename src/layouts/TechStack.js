@@ -60,7 +60,7 @@ function TechStack() {
           </a>
           <p>
             Although not used in its raw format, it is unavoidable to be a
-            front-end develoepr and not know HTML.
+            front-end developer and not know HTML.
           </p>
         </div>
 

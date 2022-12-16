@@ -16,7 +16,7 @@ function AboutMe() {
           university project or just for fun. I decided to try techy things and
           enrolled in an AI/ML course and that’s how my journey with tech
           started. I discovered web development and liked it more than AI/ML.
-          Since than I have been teaching myself frontend development ⚛️.
+          Since then I have been teaching myself frontend development ⚛️.
         </p>
         <br></br>
         <p>
