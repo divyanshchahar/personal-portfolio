@@ -1,7 +1,8 @@
+// IMPORTING ASSETS
 import Folder from "../assets/folder.svg";
 
 /**
- * LAyout to render PRojects
+ * Layout to render PRojects
  * @returns {HTML} - html to render projects
  */
 
