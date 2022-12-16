@@ -1,6 +1,6 @@
 // IMPORTING CUSTOM FUNCTIONALITY
 import TopNavBar from "./layouts/TopNavBar";
-import FrontMatter from "./components/FrontMatter";
+import FrontMatter from "./layouts/FrontMatter";
 import TechStack from "./layouts/TechStack";
 import GetInTouch from "./layouts/GetInTouch";
 import Projects from "./layouts/Projects";

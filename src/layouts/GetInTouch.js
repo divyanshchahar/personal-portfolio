@@ -1,3 +1,4 @@
+// IMPORTING ASSETS
 import Schedule from "../assets/schedule.svg";
 import Email from "../assets/email.svg";
 
