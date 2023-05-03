@@ -10,7 +10,27 @@ function Projects() {
   return (
     <div id="projects">
       <h1 className="section-heading">Projects</h1>
+
+      {/* PROJECTS */}
       <div className="tabular-medium">
+        {/* PROJECT - VIRTUAL STORE */}
+        <a
+          href="https://github.com/divyanshchahar/virtual_store"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="project-container">
+            <img src={Folder} alt="folder icon" />
+            <h2 className="sub-section-heading">Virtual Store</h2>
+            <p>
+              Virtual Store is an e-commerce app built as a yarn monorepo using
+              MERN stack. Microservice architecture is implemented to provide
+              authentication and authorization.
+            </p>
+          </div>
+        </a>
+
+        {/* PROJECT - CSS CALCULATOR*/}
         <a
           href="https://github.com/divyanshchahar/csscalculator"
           target="_blank"
@@ -28,42 +48,22 @@ function Projects() {
           </div>
         </a>
 
+        {/* PROJECT - HABIT TRACKER */}
         <a
-          href="https://github.com/divyanshchahar/job_tracking_app"
+          href="https://github.com/divyanshchahar/habit_tracker_js"
           target="_blank"
           rel="noreferrer"
         >
           <div className="project-container">
             <img src={Folder} alt="folder icon" />
-            <h2 className="sub-section-heading">Appurtinity</h2>
+            <h2 className="sub-section-heading">Habit Tracker</h2>
             <p>
-              This is was first react project. It is a pure front-end app
-              created with the sole purpose of tracking the progress of various
-              job-applications. However, since code splitting was not
-              implemented and the entire code was jam-packed into a single file,
-              it soon became complex and over-whelming. I plan to refactor this
-              project as a monorepo, add additional capabilities and introduce
-              all the development good practices.
-            </p>
-          </div>
-        </a>
-
-        <a
-          href="https://github.com/divyanshchahar/e_store"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="project-container">
-            <img src={Folder} alt="folder icon" />
-            <h2 className="sub-section-heading">E-Store</h2>
-            <p>
-              This was my first serious react project, I intended to make a
-              fully functional e-store but I soon realized it can't be done
-              without knowing some backend skills. Although I improvised with
-              json-server for the time being, I plan to refactor this project
-              and make it my first MERN app. Since it was my first big react
-              project, it has been refactored multiple times and the code looks
-              a little bit messy.
+              Habit Tracker is a simple web app built in JavaScript and webpack.
+              As the name suggests habit tracker helps the user to keep track of
+              the habits he/she wishes to keep track of. Usinng this app the
+              user can program the duration (start date and end date) of the
+              habits he/she wishes to pick up. Based on the user input the app
+              can generate a daily to do list for the user to follow
             </p>
           </div>
         </a>
