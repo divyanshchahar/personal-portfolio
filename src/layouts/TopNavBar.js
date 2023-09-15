@@ -14,9 +14,12 @@ function TopNavBar() {
   const [isVisible, setIsVisible] = useState(false);
   return (
     <>
-      <div className="top-nav-bar">
-        <Branding />
-        <MenuButton params={[isVisible, setIsVisible]} />
+      <div className="top-nav-bar-container">
+        <div className="top-nav-bar">
+          <Branding />
+          <MenuButton params={[isVisible, setIsVisible]} />
+        </div>
+
         <div className="nav-bar-links">
           <Link className="nav-link" to="about-me" smooth={true}>
             About Me
@@ -34,27 +37,28 @@ function TopNavBar() {
             Get in Touch
           </Link>
         </div>
+
+        {/* only for mobile */}
+        {isVisible ? (
+          <div className="nav-bar-links-mobile">
+            <Link className="nav-link-mobile" to="about-me" smooth={true}>
+              About Me
+            </Link>
+
+            <Link className="nav-link-mobile" to="projects" smooth={true}>
+              Projects
+            </Link>
+
+            <Link className="nav-link-mobile" to="tech-stack" smooth={true}>
+              Tech Stack
+            </Link>
+
+            <Link className="nav-link-mobile" to="get-in-touch" smooth={true}>
+              Get in Touch
+            </Link>
+          </div>
+        ) : null}
       </div>
-
-      {isVisible ? (
-        <div className="nav-bar-links-mobile">
-          <Link className="nav-link-mobile" to="about-me" smooth={true}>
-            About Me
-          </Link>
-
-          <Link className="nav-link-mobile" to="projects" smooth={true}>
-            Projects
-          </Link>
-
-          <Link className="nav-link-mobile" to="tech-stack" smooth={true}>
-            Tech Stack
-          </Link>
-
-          <Link className="nav-link-mobile" to="get-in-touch" smooth={true}>
-            Get in Touch
-          </Link>
-        </div>
-      ) : null}
     </>
   );
 }
