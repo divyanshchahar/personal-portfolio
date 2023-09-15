@@ -29,7 +29,9 @@
   --p1_tabular: 5vw;
   --p2_tabular: 5%;
 
-  --w_tabular: 100%;
+  --w_tabular: 25vw;
+
+  --g-tabular: 5vw;
 
   --p_tabular-small: 5vw;
   --fs_tabular-small: 1.25rem;
@@ -163,18 +165,16 @@ body {
 }
 
 .tabular {
-  display: grid;
-  padding: var(--p1_tabular);
-  gap: var(--p1_tabular);
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  gap: var(--g-tabular);
   justify-content: center;
   color: var(--font2);
 }
 
 .tabular img {
-  width: var(--w_tabular);
-  padding: var(--p2_tabular);
+  min-width: var(--w_tabular);
 }
 
 .tabular-small {
@@ -277,7 +277,9 @@ a {
     --p1_tabular: 5vw;
     --p2_tabular: 5%;
 
-    --w_tabular: 100%;
+    --w-tabular: 15vw;
+
+    --g-tabular: 7.5vw;
 
     --p_tabular-small: 5vw;
     --fs_tabular-small: 1.25rem;
@@ -341,13 +343,16 @@ a {
   }
 
   .tabular {
-    display: grid;
-    padding: var(--p1_tabular);
-    gap: var(--p1_tabular);
-    grid-template-columns: 25vw 25vw 25vw;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    gap: var(--g-tabular);
     justify-content: center;
     color: var(--font2);
+  }
+
+  .tabular img {
+    min-width: var(--w-tabular);
   }
 
   .tabular-small {
