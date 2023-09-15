@@ -17,10 +17,6 @@ function TechStack() {
           <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
             <img src={React} alt="react icon" />
           </a>
-          <p>
-            All of the UIs I build, are built with react, it is the foundation
-            of my tech stack.
-          </p>
         </div>
 
         <div>
@@ -31,37 +27,24 @@ function TechStack() {
           >
             <img src={JavaScript} alt="javascript icon" />
           </a>
-          <p>I use ES6 version of JavaScript for all of my web projects.</p>
         </div>
 
         <div>
           <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer">
             <img src={Npm} alt="npm icon" />
           </a>
-
-          <p>
-            Projects which are purely front-end projects are built using npm.
-          </p>
         </div>
 
         <div>
           <a href="https://yarnpkg.com/" target="_blank" rel="noreferrer">
             <img src={Yarn} alt="yarn icon" />
           </a>
-          <p>
-            For projects which require a little bit of backend, I prefer
-            monorepos. These monorepos are built using yarn workspaces.
-          </p>
         </div>
 
         <div>
           <a href="https://html.com/" target="_blank" rel="noreferrer">
             <img src={Html5} alt="html icon" />
           </a>
-          <p>
-            Although not used in its raw format, it is unavoidable to be a
-            front-end developer and not know HTML.
-          </p>
         </div>
 
         <div>
@@ -72,27 +55,18 @@ function TechStack() {
           >
             <img src={Css3} alt="css icon" />
           </a>
-          <p>
-            There are many CSS frameworks out there, but I still prefer vanilla
-            CSS. I think it is the best approach to styling the UI.
-          </p>
         </div>
 
         <div>
           <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
             <img src={Git} alt="git icon" />
           </a>
-          <p>
-            I use the official git-scm terminal for managing my
-            local-repositories.
-          </p>
         </div>
 
         <div>
           <a href="https://github.com/" target="_blank" rel="noreferrer">
             <img src={Github} alt="github icon" />
           </a>
-          <p>All of my repositories are hosted on Github.</p>
         </div>
       </div>
     </div>
