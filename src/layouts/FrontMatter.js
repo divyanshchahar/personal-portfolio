@@ -17,7 +17,7 @@ function FrontMatter() {
         <p className="text-name">Divyansh Chahar</p>
         <p>
           <span>I am a </span>{" "}
-          <span className="text-front-end">Front End Developer</span>
+          <span className="text-front-end">MERN Stack Developer</span>
         </p>
         <FrontMatterLinks />
       </div>

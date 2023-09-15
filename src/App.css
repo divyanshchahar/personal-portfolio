@@ -89,9 +89,6 @@ body {
   font-size: var(--fs_branding);
   font-weight: var(--fw_branding);
   color: var(--font1);
-  padding: var(--p_branding);
-  border: var(--b_branding) solid var(--font1);
-  border-radius: var(--br_branding);
   width: fit-content;
 }
 
