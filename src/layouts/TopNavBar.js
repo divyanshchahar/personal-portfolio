@@ -21,19 +21,24 @@ function TopNavBar() {
         </div>
 
         <div className="nav-bar-links">
-          <Link className="nav-link" to="about-me" smooth={true}>
+          <Link className="nav-link" to="about-me" smooth={true} offset={-60}>
             About Me
           </Link>
 
-          <Link className="nav-link" to="projects" smooth={true}>
+          <Link className="nav-link" to="projects" smooth={true} offset={-60}>
             Projects
           </Link>
 
-          <Link className="nav-link" to="tech-stack" smooth={true}>
+          <Link className="nav-link" to="tech-stack" smooth={true} offset={-60}>
             Tech Stack
           </Link>
 
-          <Link className="nav-link" to="get-in-touch" smooth={true}>
+          <Link
+            className="nav-link"
+            to="get-in-touch"
+            smooth={true}
+            offset={-60}
+          >
             Get in Touch
           </Link>
         </div>
