@@ -11,7 +11,7 @@ import { Link } from "react-scroll";
  * @returns {HTML} - returns HTML for top nav bar
  */
 function TopNavBar() {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
   return (
     <>
       <div className="top-nav-bar">
