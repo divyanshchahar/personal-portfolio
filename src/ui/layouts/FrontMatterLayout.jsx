@@ -15,11 +15,15 @@ function FrontMatter() {
 		<div className="front-matter">
 			<div className="front-matter-1">
 				<p>Hi, My name is</p>
+
 				<p className="text-name">Divyansh Chahar</p>
+
 				<p>
-					<span>I am a </span>{' '}
+					<span>I am a </span>
+
 					<span className="text-front-end">MERN Stack Developer</span>
 				</p>
+
 				<FrontMatterLinks />
 			</div>
 
