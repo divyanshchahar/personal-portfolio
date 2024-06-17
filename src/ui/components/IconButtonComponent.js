@@ -1,6 +1,3 @@
-// IMPORTING ASSETS
-import MenuIcon from '../../assets/menu_icon.svg';
-
 /**
  * Function to render menu button
  * @param {array} args - array comprised of `stateVar` and `stateFunc` i.e. state variable and state function respectively
@@ -8,9 +5,8 @@ import MenuIcon from '../../assets/menu_icon.svg';
  */
 
 function MenuButton({ icon, clickHandler }) {
-	const [stateVar, stateFunc] = args.params;
 	return (
-		<div className="menu-button" onClick={() => stateFunc(!stateVar)}>
+		<div className="menu-button" onClick={clickHandler}>
 			<img src={icon} alt="" />
 		</div>
 	);
