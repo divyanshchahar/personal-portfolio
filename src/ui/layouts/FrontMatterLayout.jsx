@@ -10,7 +10,7 @@ import FrontMatterLinks from '../components/FrontMatterLinks';
  * @returns {HTML} - returns HTML for rendering front matter
  */
 
-function FrontMatter() {
+function FrontMatterLayout() {
 	return (
 		<div className="front-matter">
 			<div className="front-matter-1">
@@ -32,4 +32,4 @@ function FrontMatter() {
 	);
 }
 
-export default FrontMatter;
+export default FrontMatterLayout;
