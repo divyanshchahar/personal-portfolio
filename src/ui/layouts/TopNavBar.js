@@ -1,5 +1,6 @@
+import MenuIcon from '../../assets/menu_icon.svg';
 import Branding from '../components/Branding';
-import MenuButton from '../components/MenuButton';
+import IconButtonComponent from '../components/IconButtonComponent';
 
 // IMPORTING REACT FUNCTIONALITY
 import { useState } from 'react';
@@ -11,12 +12,17 @@ import { Link } from 'react-scroll';
  */
 function TopNavBar() {
 	const [isVisible, setIsVisible] = useState(false);
+
+	const toggleDropDown = () => {
+		setIsVisible(!isVisible);
+	};
 	return (
 		<>
 			<div className="top-nav-bar-container">
 				<div className="top-nav-bar">
 					<Branding />
-					<MenuButton params={[isVisible, setIsVisible]} />
+					{/* <MenuButton params={[isVisible, setIsVisible]} /> */}
+					<IconButtonComponent icon={MenuIcon} clickHandler={toggleDropDown} />
 				</div>
 
 				<div className="nav-bar-links">
