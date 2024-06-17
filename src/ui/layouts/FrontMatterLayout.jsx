@@ -1,9 +1,12 @@
 //IMPORTING ASSETS
+import GithubIcon from '../../assets/github_icon.svg';
+import HashnodeIcon from '../../assets/hashnode_icon.svg';
 import MyPicture from '../../assets/image_dp.jpeg';
+import LinkedInIcon from '../../assets/linkedin_icon.svg';
+import TwitterIcon from '../../assets/twitter_icon.svg';
 import AvatarComponent from '../components/AvatarComponent';
-
-// IMPORTING CUSTOM FUNCTIONALITY
-import FrontMatterLinks from '../components/FrontMatterLinks';
+import IconLinkComponent from '../components/IconLinkComponent';
+import styles from './FrontMatterLayout.module.css';
 
 /**
  * Function to render front matter
@@ -12,22 +15,45 @@ import FrontMatterLinks from '../components/FrontMatterLinks';
 
 function FrontMatterLayout() {
 	return (
-		<div className="front-matter">
-			<div className="front-matter-1">
-				<p>Hi, My name is</p>
-
-				<p className="text-name">Divyansh Chahar</p>
-
-				<p>
-					<span>I am a </span>
-
-					<span className="text-front-end">MERN Stack Developer</span>
-				</p>
-
-				<FrontMatterLinks />
-			</div>
-
+		<div className={styles.container}>
+			{/* LEFT SIDE */}
 			<AvatarComponent picture={MyPicture} altTag="profile-picture" />
+
+			{/* RIGHT SIDE */}
+
+			<div className={styles['left-column']}>
+				<p className={styles.name}>Divyansh Chahar</p>
+
+				<p className={styles.skill}>MERN Stack Developer</p>
+
+				{/* EXTERNAL LINKS */}
+
+				<div className={styles['link-container']}>
+					<IconLinkComponent
+						icon={LinkedInIcon}
+						linkAddress="https://www.linkedin.com/in/divyanshchahar/"
+						altTag="linkedin"
+					/>
+
+					<IconLinkComponent
+						icon={TwitterIcon}
+						linkAddress="https://twitter.com/DivyanshChahar"
+						altTag="twitter"
+					/>
+
+					<IconLinkComponent
+						icon={GithubIcon}
+						linkAddress="https://github.com/divyanshchahar"
+						altTag="github"
+					/>
+
+					<IconLinkComponent
+						icon={HashnodeIcon}
+						linkAddress="https://divyanshchahar.hashnode.dev/"
+						altTag="hashnode"
+					/>
+				</div>
+			</div>
 		</div>
 	);
 }
