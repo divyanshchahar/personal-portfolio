@@ -7,11 +7,11 @@ import MenuIcon from '../../assets/menu_icon.svg';
  * @returns
  */
 
-function MenuButton(args) {
+function MenuButton({ icon, clickHandler }) {
 	const [stateVar, stateFunc] = args.params;
 	return (
 		<div className="menu-button" onClick={() => stateFunc(!stateVar)}>
-			<img src={MenuIcon} alt="" />
+			<img src={icon} alt="" />
 		</div>
 	);
 }
