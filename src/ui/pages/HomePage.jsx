@@ -5,16 +5,20 @@ import AboutMe from '../layouts/AboutMe';
 import Projects from '../layouts/Projects';
 import TechStack from '../layouts/TechStack';
 import GetinTouch from '../layouts/GetInTouch';
+import styles from './HomePage.module.css';
 
 function HomePage() {
 	return (
 		<>
 			<TopNavBar />
-			<FrontMatter />
-			<AboutMe />
-			<Projects />
-			<TechStack />
-			<GetinTouch />
+
+			<div className={styles.container}>
+				<FrontMatter />
+				<AboutMe />
+				<Projects />
+				<TechStack />
+				<GetinTouch />
+			</div>
 		</>
 	);
 }
