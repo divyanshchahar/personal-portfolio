@@ -1,5 +1,5 @@
 // IMPORTING ASSETS
-import MenuIcon from "../assets/menu_icon.svg";
+import MenuIcon from '../../assets/menu_icon.svg';
 
 /**
  * Function to render menu button
@@ -8,12 +8,12 @@ import MenuIcon from "../assets/menu_icon.svg";
  */
 
 function MenuButton(args) {
-  const [stateVar, stateFunc] = args.params;
-  return (
-    <div className="menu-button" onClick={() => stateFunc(!stateVar)}>
-      <img src={MenuIcon} alt="" />
-    </div>
-  );
+	const [stateVar, stateFunc] = args.params;
+	return (
+		<div className="menu-button" onClick={() => stateFunc(!stateVar)}>
+			<img src={MenuIcon} alt="" />
+		</div>
+	);
 }
 
 export default MenuButton;
