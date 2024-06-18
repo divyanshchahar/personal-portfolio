@@ -1,73 +1,66 @@
 // IMPORTING ASSETS
-import React from '../../assets/react.svg';
-import Css3 from '../../assets/css3.svg';
-import Git from '../../assets/git.svg';
-import Html5 from '../../assets/html5.svg';
-import JavaScript from '../../assets/javascript.svg';
-import Npm from '../../assets/npm.svg';
-import Yarn from '../../assets/yarn.svg';
-import Github from '../../assets/github.svg';
+import ReactIcon from '../../assets/react_icon.svg';
+import Css3Icon from '../../assets/css3_icon.svg';
+import GitIcon from '../../assets/git_icon.svg';
+import Html5Icon from '../../assets/html5_icon.svg';
+import JavaScriptIcon from '../../assets/javascript_icon.svg';
+import NpmIcon from '../../assets/npm_icon.svg';
+import YarnIcon from '../../assets/yarn_icon.svg';
+import GithubIcon from '../../assets/github_icon.svg';
+import IconLinkComponent from '../components/IconLinkComponent';
 
 function TechStack() {
 	return (
 		<div id="tech-stack">
 			<h1 className="section-heading">My Tech Stack</h1>
 			<div className="tabular">
-				<div>
-					<a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-						<img src={React} alt="react icon" />
-					</a>
-				</div>
+				<IconLinkComponent
+					icon={ReactIcon}
+					linkAddress="https://www.react.dev"
+					altTag="react-webiste"
+				/>
 
-				<div>
-					<a
-						href="https://www.javascript.com/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<img src={JavaScript} alt="javascript icon" />
-					</a>
-				</div>
+				<IconLinkComponent
+					icon={JavaScriptIcon}
+					linkAddress="https://www.javascript.com/"
+					altTag="javascript-website"
+				/>
 
-				<div>
-					<a href="https://www.npmjs.com/" target="_blank" rel="noreferrer">
-						<img src={Npm} alt="npm icon" />
-					</a>
-				</div>
+				<IconLinkComponent
+					icon={NpmIcon}
+					linkAddress="https://www.npmjs.com/"
+					altTag="npm-website"
+				/>
 
-				<div>
-					<a href="https://yarnpkg.com/" target="_blank" rel="noreferrer">
-						<img src={Yarn} alt="yarn icon" />
-					</a>
-				</div>
+				<IconLinkComponent
+					icon={YarnIcon}
+					linkAddress="https://yarnpkg.com/"
+					altTag="yarn-website"
+				/>
 
-				<div>
-					<a href="https://html.com/" target="_blank" rel="noreferrer">
-						<img src={Html5} alt="html icon" />
-					</a>
-				</div>
+				<IconLinkComponent
+					icon={Html5Icon}
+					linkAddress="https://html.com/"
+					altTag="html-website"
+				/>
 
-				<div>
-					<a
-						href="https://www.w3schools.com/css/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<img src={Css3} alt="css icon" />
-					</a>
-				</div>
+				<IconLinkComponent
+					icon={Css3Icon}
+					linkAddress="https://www.w3schools.com/css/"
+					altTag="css3-website"
+				/>
 
-				<div>
-					<a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-						<img src={Git} alt="git icon" />
-					</a>
-				</div>
+				<IconLinkComponent
+					icon={GitIcon}
+					linkAddress="https://git-scm.com/"
+					altTag="git-website"
+				/>
 
-				<div>
-					<a href="https://github.com/" target="_blank" rel="noreferrer">
-						<img src={Github} alt="github icon" />
-					</a>
-				</div>
+				<IconLinkComponent
+					icon={GithubIcon}
+					linkAddress="https://github.com/"
+					altTag="github-website"
+				/>
 			</div>
 		</div>
 	);
