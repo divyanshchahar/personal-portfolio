@@ -1,5 +1,4 @@
 // IMPORTING ASSETS
-import Folder from '../../assets/folder.svg';
 import SectionHeadingComponent from '../components/SectionHeadingComponent';
 import ProjectCardLayout from './ProjectCardLayout';
 import styles from './ProjectsLayout.module.css';
