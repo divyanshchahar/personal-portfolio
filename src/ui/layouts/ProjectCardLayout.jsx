@@ -1,4 +1,3 @@
-import FolderIcon from '../../assets/folder.svg';
 import CardHeadingComponent from '../components/CardHeadingComponent';
 import styles from './ProjectCardLayout.module.css';
 
