@@ -10,7 +10,7 @@ import { Link } from 'react-scroll';
  * Layout to render Top Navigation Bar
  * @returns {HTML} - returns HTML for top nav bar
  */
-function TopNavBar() {
+function TopNavBarLayout() {
 	const [isVisible, setIsVisible] = useState(false);
 
 	const toggleDropDown = () => {
@@ -73,4 +73,4 @@ function TopNavBar() {
 	);
 }
 
-export default TopNavBar;
+export default TopNavBarLayout;
