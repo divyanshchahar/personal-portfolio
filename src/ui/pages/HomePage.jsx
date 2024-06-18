@@ -1,10 +1,10 @@
 import React from 'react';
+import AboutMeLayout from '../layouts/AboutMeLayout';
+import FrontMatterLayout from '../layouts/FrontMatterLayout';
+import GetinTouchLayout from '../layouts/GetInTouchLayout';
+import ProjectsLayout from '../layouts/ProjectsLayout';
+import TechStack from '../layouts/TechStackLayout';
 import TopNavBar from '../layouts/TopNavBar';
-import FrontMatter from '../layouts/FrontMatter';
-import AboutMe from '../layouts/AboutMe';
-import Projects from '../layouts/Projects';
-import TechStack from '../layouts/TechStack';
-import GetinTouch from '../layouts/GetInTouch';
 import styles from './HomePage.module.css';
 
 function HomePage() {
@@ -13,11 +13,15 @@ function HomePage() {
 			<TopNavBar />
 
 			<div className={styles.container}>
-				<FrontMatter />
-				<AboutMe />
-				<Projects />
+				<FrontMatterLayout />
+
+				<AboutMeLayout />
+
+				<ProjectsLayout />
+
 				<TechStack />
-				<GetinTouch />
+
+				<GetinTouchLayout />
 			</div>
 		</>
 	);
