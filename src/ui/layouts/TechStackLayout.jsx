@@ -8,12 +8,14 @@ import NpmIcon from '../../assets/npm_icon.svg';
 import YarnIcon from '../../assets/yarn_icon.svg';
 import GithubIcon from '../../assets/github_icon.svg';
 import IconLinkComponent from '../components/IconLinkComponent';
+import SectionHeadingComponent from '../components/SectionHeadingComponent';
+import styles from './TechStackLayout.module.css';
 
 function TechStack() {
 	return (
 		<div id="tech-stack">
-			<h1 className="section-heading">My Tech Stack</h1>
-			<div className="tabular">
+			<SectionHeadingComponent headingText="My Tech Stack" />
+			<div className={styles.tabular}>
 				<IconLinkComponent
 					icon={ReactIcon}
 					linkAddress="https://www.react.dev"
