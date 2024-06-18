@@ -114,15 +114,6 @@ body {
 	width: fit-content;
 }
 
-/* .menu-button {
-	height: 10vw;
-	padding: var(--p_branding);
-} */
-
-/* .menu-button img {
-	height: 100%;
-} */
-
 .nav-bar-links-mobile {
 	display: inline-block;
 	width: 100%;
