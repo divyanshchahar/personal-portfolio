@@ -1,0 +1,21 @@
+.container {
+	color: var(--primary);
+	border-radius: var(--s4);
+	padding: var(--s4);
+	max-width: 100%;
+}
+
+.container h3 {
+	margin-bottom: var(--s2);
+}
+
+.container:hover {
+	background-color: var(--highlight);
+	cursor: pointer;
+}
+
+@media screen and (min-width: 429px) {
+	.container {
+		max-width: 430px;
+	}
+}

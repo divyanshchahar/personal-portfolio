@@ -1,0 +1,20 @@
+.container {
+	height: var(--s8);
+	padding: var(--s1);
+	border: none;
+	background: none;
+}
+
+.container img {
+	height: 100%;
+}
+
+.container:hover {
+	cursor: pointer;
+}
+
+@media screen and (min-width: 429px) {
+	.container {
+		display: none;
+	}
+}

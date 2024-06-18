@@ -1,25 +1,8 @@
-// IMPORTING CUSTOM FUNCTIONALITY
-import TopNavBar from "./layouts/TopNavBar";
-import FrontMatter from "./layouts/FrontMatter";
-import TechStack from "./layouts/TechStack";
-import GetInTouch from "./layouts/GetInTouch";
-import Projects from "./layouts/Projects";
-import AboutMe from "./layouts/AboutMe";
-
-// IMPORTING STYLESHEETS
-import "./App.css";
+import './App.css';
+import HomePage from './ui/pages/HomePage';
 
 function App() {
-  return (
-    <>
-      <TopNavBar />
-      <FrontMatter />
-      <AboutMe />
-      <Projects />
-      <TechStack />
-      <GetInTouch />
-    </>
-  );
+	return <HomePage />;
 }
 
 export default App;

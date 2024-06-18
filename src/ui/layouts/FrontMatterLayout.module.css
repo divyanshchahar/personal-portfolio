@@ -1,0 +1,31 @@
+.container {
+	display: flex;
+
+	gap: var(--s10);
+
+	text-align: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.left-column {
+	flex-grow: 0.5;
+}
+
+.link-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: var(--s8);
+	flex-wrap: wrap;
+}
+
+.name {
+	font-size: var(--fs2);
+	color: var(--primary);
+}
+
+.skill {
+	font-size: var(--fs3);
+	color: var(--accent);
+}

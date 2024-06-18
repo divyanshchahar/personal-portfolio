@@ -1,0 +1,6 @@
+.heading {
+	color: var(--primary);
+	text-align: center;
+	font-size: var(--fs1);
+	margin: var(--s4);
+}
