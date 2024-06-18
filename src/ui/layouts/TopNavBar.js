@@ -21,7 +21,7 @@ function TopNavBar() {
 			<div className="top-nav-bar-container">
 				<div className="top-nav-bar">
 					<Branding />
-					{/* <MenuButton params={[isVisible, setIsVisible]} /> */}
+
 					<IconButtonComponent icon={MenuIcon} clickHandler={toggleDropDown} />
 				</div>
 
